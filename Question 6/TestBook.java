@@ -29,7 +29,7 @@ public class TestBook {
             sc.nextLine();
             System.out.print("\nEnter the title of book\t: ");
             title = sc.nextLine();
-            System.out.print("Enter the price of book\t: ");
+            System.out.print("Enter the price of book\t: RM ");
             price = sc.nextDouble();
             
             myLibrary [i] = new Book(title,price);
@@ -48,7 +48,7 @@ public class TestBook {
                 titleBook = myLibrary[j].getTitle();
             }
         }
-        System.out.println("\n" + titleBook + " is thebook with the highest price which cost RM" + DF.format(highPrice));
+        System.out.println("\n" + titleBook + " is thebook with the highest price which cost RM " + DF.format(highPrice));
         
         /*Question 4*/
         System.out.println("\nBooks that contain the term “Java” :");
